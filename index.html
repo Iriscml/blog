@@ -3,3 +3,10 @@ layout: default
 ---
 <h1>你好</h1>
 <p>博客主页</p>
+<p>我的文章列表</p>
+<ul>
+   {% for post in site.posts %}
+       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+
