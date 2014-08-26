@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-       <title>我的博客_测试</title>
-   </head>
-   <body>
-       {{content}}
-   </body>
-<html>
-
+     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+        <title>{{page.title}}</title>
+     </head>
+     <body>
+         <div id="header">
+             <p id="name">Iris Chen</p>
+             <a href="https://github.com/Iriscml"><p id="link">My Github Link</p></a>
+         </div>
+         <div class="left">
+         </div>
+         <div class="right">
+             {{content}}
+         </div>
+         <div id="footer">
+             <p>Contrat me: irischenml@gmail.com</p>
+         </div>
+     </body>
+</html>

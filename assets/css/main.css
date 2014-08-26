@@ -1,0 +1,75 @@
+div {
+    border-radius:5px;
+}
+#header {
+    height:60px;
+    width:95%;
+    position:fixed;
+    z-index:1;
+    background-color:lightslategray;
+    margin-top:-10px;
+    font-family: Verdana, sans-serif;
+}
+#name {
+    float:left;
+    margin-left:10px;
+    padding-top:5px;
+    font-size: 16px;
+     font-family: Verdana, sans-serif;
+     color: #ffffff;
+    font-weight:bold;
+}
+#link {
+    float:right;
+    margin-right:10px;
+    padding-top:5px;
+    font-size: 16px;
+     font-family: Verdana, sans-serif;
+     color: #ffffff;
+}
+a:hover {
+    font-weight: bold;
+}   
+.left {
+    margin-top:60px;
+    height:450px;
+    width:10%;
+    float:left;
+    background-color:lightseagreen;
+    margin-bottom:10px;
+}
+.right {
+    margin-top:60px;
+    margin-right:3.5%;
+    height:450px;
+    width:85%;
+    float:right;
+    background-color:moccasin;
+    margin-bottom:10px;
+}
+.right p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
+    font-family: Garamond, serif;
+    color: #000000;
+}
+.right h4 {
+    font-size:20px;
+    font-family: serif;
+    color: #000000;
+}
+}
+#footer {
+    height:40px;
+    width:96.5%;
+    clear:both;
+    font-family: Verdana, sans-serif;
+    background-color:lightslategray;
+}
+#footer p {
+    padding-top:10px;
+    text-align:center;
+    font-size:15px;
+    color: #ffffff;
+}
